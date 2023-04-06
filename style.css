@@ -14,6 +14,10 @@ nav{
     padding: 20px 30px;
 }
 
+nav img{
+    display: none;
+}
+
 ul{
     display: flex;
     justify-content: end;
@@ -100,6 +104,13 @@ li{
 }
 
 @media screen and (max-width:576px) {
+    nav img{
+        width: 20px;
+        display: block;
+    }
+    .project-cont{
+        margin-top: 0;
+    }  
     nav ul{
         display: none;
     }
@@ -115,6 +126,7 @@ li{
     }
 
     .left-text h3{
+        margin-top: 0;
         font-size: 25px;
     }
 
@@ -138,4 +150,5 @@ li{
     .pro-img-a{
         display: grid;
     }
+
 }
